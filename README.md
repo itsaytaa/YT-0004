@@ -1,5 +1,7 @@
 # Not Covered
 
+> **This repo is the build repo for Advisory 0004** ("If Your Wi-Fi Ever Shows A Network With Your Name… DO NOT CONNECT"). Start with `advisories/0004-wifi-network/BUILD.md`.
+
 Studio repo for the YouTube channel **Not Covered**. It makes five-minute "rules horror" pictogram videos (Advisories from the fictional Department of Unlisted Risks), drawn in code with Remotion (React + SVG). The only AI-generated asset is the voice-over (OpenRouter).
 
 - `brand/`: the channel's identity, the shared look and sound, and the reference sheets. Start with `brand/BRAND.md`.

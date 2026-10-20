@@ -1,0 +1,4400 @@
+{
+ "meta": {
+  "channel": "Not Covered",
+  "department": "Department of Unlisted Risks",
+  "departmentShort": "DUR",
+  "advisory": "0004",
+  "title": "If Your Wi-Fi Ever Shows A Network With Your Name… DO NOT CONNECT",
+  "slug": "advisory-0004-wifi-network",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "leadInSec": 0.6,
+  "slipLines": [
+   "L065"
+  ],
+  "customElements": [
+   "router",
+   "router-sticker",
+   "phone",
+   "signal-bars",
+   "waves",
+   "device",
+   "glasses",
+   "upload-bar"
+  ],
+  "customShots": [
+   "wifi-list",
+   "channel-graph"
+  ],
+  "endCard": {
+   "shot": "END",
+   "holdSec": 3.0
+  },
+  "notes": "One line = one caption = one shot (unless transitionIn is 'hold', which keeps the previous shot on screen and applies the new shot's changes). Line timing comes from the generated voice audio. Episode assets: assets-spec.md. Custom shots (wifi-list, channel-graph) are always fully specified, never same_as."
+ },
+ "beats": [
+  {
+   "id": "cold_open",
+   "label": "Cold open"
+  },
+  {
+   "id": "teaser",
+   "label": "Teaser"
+  },
+  {
+   "id": "world",
+   "label": "The world"
+  },
+  {
+   "id": "directive_1",
+   "label": "Directive 1: Do not connect"
+  },
+  {
+   "id": "directive_2",
+   "label": "Directive 2: Do not follow the signal"
+  },
+  {
+   "id": "directive_3",
+   "label": "Directive 3: Do not rename your network"
+  },
+  {
+   "id": "directive_4",
+   "label": "Directive 4: Do not unplug the router"
+  },
+  {
+   "id": "directive_5",
+   "label": "Directive 5: Do not read the password out loud"
+  },
+  {
+   "id": "directive_6",
+   "label": "Directive 6: Do not reset it"
+  },
+  {
+   "id": "addendum",
+   "label": "Addendum"
+  },
+  {
+   "id": "callback",
+   "label": "Callback"
+  },
+  {
+   "id": "outro",
+   "label": "Outro"
+  }
+ ],
+ "lines": [
+  {
+   "id": "L001",
+   "beat": "cold_open",
+   "directive": null,
+   "voice": "If your Wi-Fi ever shows a network with your name...",
+   "caption": "If your Wi-Fi ever shows a network with your name...",
+   "shot": "S01",
+   "pauseAfter": 0.45,
+   "emphasis": [
+    "your name"
+   ],
+   "sfx": null,
+   "transitionIn": "fade"
+  },
+  {
+   "id": "L002",
+   "beat": "cold_open",
+   "directive": null,
+   "voice": "and it has full signal...",
+   "caption": "and it has full signal...",
+   "shot": "S02",
+   "pauseAfter": 0.45,
+   "emphasis": [
+    "full signal"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L003",
+   "beat": "cold_open",
+   "directive": null,
+   "voice": "do not connect.",
+   "caption": "do not connect.",
+   "shot": "S03",
+   "pauseAfter": 0.5,
+   "emphasis": [
+    "do not connect"
+   ],
+   "sfx": "static",
+   "transitionIn": "carbon"
+  },
+  {
+   "id": "L004",
+   "beat": "cold_open",
+   "directive": null,
+   "voice": "Do not walk toward it.",
+   "caption": "Do not walk toward it.",
+   "shot": "S04",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L005",
+   "beat": "cold_open",
+   "directive": null,
+   "voice": "And do not unplug the router.",
+   "caption": "And do not unplug the router.",
+   "shot": "S05",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "unplug the router"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L006",
+   "beat": "cold_open",
+   "directive": null,
+   "voice": "This is Advisory zero zero zero four.",
+   "caption": "This is Advisory 0004.",
+   "shot": "S06",
+   "pauseAfter": 0.5,
+   "emphasis": [],
+   "sfx": "page",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L007",
+   "beat": "teaser",
+   "directive": null,
+   "voice": "This advisory has six directives.",
+   "caption": "This advisory has 6 directives.",
+   "shot": "S06a",
+   "pauseAfter": 0.3,
+   "emphasis": [
+    "6 directives"
+   ],
+   "sfx": null,
+   "transitionIn": "hold"
+  },
+  {
+   "id": "L008",
+   "beat": "teaser",
+   "directive": null,
+   "voice": "Most households violate the second.",
+   "caption": "Most households violate the second.",
+   "shot": "S06b",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "the second"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L009",
+   "beat": "teaser",
+   "directive": null,
+   "voice": "The addendum is not about your Wi-Fi.",
+   "caption": "The addendum is not about your Wi-Fi.",
+   "shot": "S06c",
+   "pauseAfter": 0.9,
+   "emphasis": [
+    "addendum"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L010",
+   "beat": "world",
+   "directive": null,
+   "voice": "Your phone can see every network near you.",
+   "caption": "Your phone can see every network near you.",
+   "shot": "S07",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L011",
+   "beat": "world",
+   "directive": null,
+   "voice": "The neighbours'. The printer. The television upstairs.",
+   "caption": "The neighbours'. The printer. The television upstairs.",
+   "shot": "S08",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L012",
+   "beat": "world",
+   "directive": null,
+   "voice": "One of them is called FBI Surveillance Van.",
+   "caption": "One of them is called \"FBI Surveillance Van.\"",
+   "shot": "S09",
+   "pauseAfter": 0.45,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L013",
+   "beat": "world",
+   "directive": null,
+   "voice": "It is not ours.",
+   "caption": "It is not ours.",
+   "shot": "S10",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "not ours"
+   ],
+   "sfx": "page",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L014",
+   "beat": "world",
+   "directive": null,
+   "voice": "Tonight, you woke at three in the morning.",
+   "caption": "Tonight, you woke at 3 AM.",
+   "shot": "S11",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L015",
+   "beat": "world",
+   "directive": null,
+   "voice": "Your router was restarting. It does that for updates.",
+   "caption": "Your router was restarting. It does that for updates.",
+   "shot": "S12",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L016",
+   "beat": "world",
+   "directive": null,
+   "voice": "For four minutes, your home had no Wi-Fi.",
+   "caption": "For 4 minutes, your home had no Wi-Fi.",
+   "shot": "S13",
+   "pauseAfter": 0.45,
+   "emphasis": [
+    "no Wi-Fi"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L017",
+   "beat": "world",
+   "directive": null,
+   "voice": "That is when you saw it.",
+   "caption": "That is when you saw it.",
+   "shot": "S14",
+   "pauseAfter": 0.45,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L018",
+   "beat": "world",
+   "directive": null,
+   "voice": "Your name. Full bars. No lock.",
+   "caption": "Your name. Full bars. No lock.",
+   "shot": "S15",
+   "pauseAfter": 0.5,
+   "emphasis": [
+    "Your name"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L019",
+   "beat": "world",
+   "directive": null,
+   "voice": "Your router is in the hallway. It has never had full bars in here.",
+   "caption": "Your router is in the hallway. It has never had full bars in here.",
+   "shot": "S16",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L020",
+   "beat": "world",
+   "directive": null,
+   "voice": "Full bars means it is closer than your router.",
+   "caption": "Full bars means it is closer than your router.",
+   "shot": "S17",
+   "pauseAfter": 0.8,
+   "emphasis": [
+    "closer than your router"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L021",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "Directive one. Do not connect.",
+   "caption": "Directive 1. Do not connect.",
+   "shot": "C1",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "Do not connect"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L022",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "It has no lock beside it. It does not need a password.",
+   "caption": "It has no lock beside it. It does not need a password.",
+   "shot": "S19",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L023",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "Your phone will offer to join it.",
+   "caption": "Your phone will offer to join it.",
+   "shot": "S20",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L024",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "You will want to know who set it up.",
+   "caption": "You will want to know who set it up.",
+   "shot": "S21",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L025",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "Do not tap it.",
+   "caption": "Do not tap it.",
+   "shot": "S22",
+   "pauseAfter": 0.45,
+   "emphasis": [
+    "Do not tap it"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L026",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "A network does not need your name to find you.",
+   "caption": "A network does not need your name to find you.",
+   "shot": "S23",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L027",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "This one already has it.",
+   "caption": "This one already has it.",
+   "shot": "S24",
+   "pauseAfter": 0.45,
+   "emphasis": [
+    "already has it"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L028",
+   "beat": "directive_1",
+   "directive": 1,
+   "voice": "Connecting only tells it which room you are in.",
+   "caption": "Connecting only tells it which room you are in.",
+   "shot": "S25",
+   "pauseAfter": 0.8,
+   "emphasis": [
+    "which room you are in"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L029",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "Directive two. Do not follow the signal.",
+   "caption": "Directive 2. Do not follow the signal.",
+   "shot": "C2",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "Do not follow the signal"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L030",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "This is the directive most households violate.",
+   "caption": "This is the directive most households violate.",
+   "shot": "S27",
+   "pauseAfter": 0.4,
+   "emphasis": [
+    "violate"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L031",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "You will get up. You will hold your phone out in front of you.",
+   "caption": "You will get up. You will hold your phone out in front of you.",
+   "shot": "S28",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L032",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "Two bars in the kitchen. Three in the hallway.",
+   "caption": "Two bars in the kitchen. Three in the hallway.",
+   "shot": "S29",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L033",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "Case five-one-six.",
+   "caption": "Case 0516.",
+   "shot": "S30",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": "page",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L034",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "A woman in Glasgow walked her phone through every room.",
+   "caption": "A woman in Glasgow walked her phone through every room.",
+   "shot": "S31",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L035",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "Full bars in the bedroom.",
+   "caption": "Full bars in the bedroom.",
+   "shot": "S32",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L036",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "Full bars on her side of the bed.",
+   "caption": "Full bars on her side of the bed.",
+   "shot": "S33",
+   "pauseAfter": 0.5,
+   "emphasis": [
+    "her side of the bed"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L037",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "The blanket was warm.",
+   "caption": "The blanket was warm.",
+   "shot": "S34",
+   "pauseAfter": 0.5,
+   "emphasis": [],
+   "sfx": "silence",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L038",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "She had been out of bed for ten minutes.",
+   "caption": "She had been out of bed for 10 minutes.",
+   "shot": "S35",
+   "pauseAfter": 0.6,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L039",
+   "beat": "directive_2",
+   "directive": 2,
+   "voice": "Do not follow the signal. Stay where you are.",
+   "caption": "Do not follow the signal. Stay where you are.",
+   "shot": "S36",
+   "pauseAfter": 0.8,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L040",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "Directive three. Do not rename your network.",
+   "caption": "Directive 3. Do not rename your network.",
+   "shot": "C3",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "Do not rename your network"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L041",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "You will want to send a message.",
+   "caption": "You will want to send a message.",
+   "shot": "S38",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L042",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "You will rename your own network. Go away.",
+   "caption": "You will rename your own network: \"GO AWAY.\"",
+   "shot": "S39",
+   "pauseAfter": 0.45,
+   "emphasis": [
+    "GO AWAY"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L043",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "In our files, eight hundred and four households did this.",
+   "caption": "In our files, 804 households did this.",
+   "shot": "S40",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L044",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "Every one of them checked again in the morning.",
+   "caption": "Every one of them checked again in the morning.",
+   "shot": "S41",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L045",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "The network with their name had been renamed too.",
+   "caption": "The network with their name had been renamed too.",
+   "shot": "S42",
+   "pauseAfter": 0.5,
+   "emphasis": [
+    "renamed too"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L046",
+   "beat": "directive_3",
+   "directive": 3,
+   "voice": "We will not be putting the new name in writing.",
+   "caption": "We will not be putting the new name in writing.",
+   "shot": "S43",
+   "pauseAfter": 0.8,
+   "emphasis": [],
+   "sfx": "page",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L047",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "Directive four. Do not unplug the router.",
+   "caption": "Directive 4. Do not unplug the router.",
+   "shot": "C4",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "Do not unplug the router"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L048",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "You will want to see if it goes away.",
+   "caption": "You will want to see if it goes away.",
+   "shot": "S45",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L049",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "Pull the plug, and your network goes away.",
+   "caption": "Pull the plug, and your network goes away.",
+   "shot": "S46",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": "click",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L050",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "Theirs does not.",
+   "caption": "Theirs does not.",
+   "shot": "S47",
+   "pauseAfter": 0.5,
+   "emphasis": [
+    "Theirs does not"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L051",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "Without your router, theirs is the only network in your home.",
+   "caption": "Without your router, theirs is the only network in your home.",
+   "shot": "S48",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L052",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "Your phone, your laptop and your television will start looking for one.",
+   "caption": "Your phone, your laptop and your television will start looking for one.",
+   "shot": "S49",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L053",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "By morning, they will have found it.",
+   "caption": "By morning, they will have found it.",
+   "shot": "S50",
+   "pauseAfter": 0.5,
+   "emphasis": [
+    "found it"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L054",
+   "beat": "directive_4",
+   "directive": 4,
+   "voice": "Leave it plugged in. Let its lights blink.",
+   "caption": "Leave it plugged in. Let its lights blink.",
+   "shot": "S51",
+   "pauseAfter": 0.8,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L055",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "Directive five. Do not read the password out loud.",
+   "caption": "Directive 5. Do not read the password out loud.",
+   "shot": "C5",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "Do not read the password out loud"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L056",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "The password is on a sticker under the router.",
+   "caption": "The password is on a sticker under the router.",
+   "shot": "S53",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L057",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "Every guest you have ever had has asked for it.",
+   "caption": "Every guest you have ever had has asked for it.",
+   "shot": "S54",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L058",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "You turned the router over and read it out. Twice.",
+   "caption": "You turned the router over and read it out. Twice.",
+   "shot": "S55",
+   "pauseAfter": 0.45,
+   "emphasis": [
+    "Twice"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L059",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "Do not do that tonight. Do not even turn it over.",
+   "caption": "Do not do that tonight. Do not even turn it over.",
+   "shot": "S56",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L060",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "Sometime after four, you will hear the router being lifted.",
+   "caption": "Sometime after 4, you will hear the router being lifted.",
+   "shot": "S57",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "lifted"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L061",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "A long pause.",
+   "caption": "A long pause.",
+   "shot": "S58",
+   "pauseAfter": 1.0,
+   "emphasis": [],
+   "sfx": "silence",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L062",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "Then it is put back down.",
+   "caption": "Then it is put back down.",
+   "shot": "S59",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L063",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "Do not get up. Do not check where it is.",
+   "caption": "Do not get up. Do not check where it is.",
+   "shot": "S60",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L064",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "It is a little to the left.",
+   "caption": "It is a little to the left.",
+   "shot": "S61",
+   "pauseAfter": 0.6,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L065",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "We had to use our glasses.",
+   "caption": "We had to use our glasses.",
+   "shot": "SLIP1",
+   "pauseAfter": 0.7,
+   "emphasis": [],
+   "sfx": "static",
+   "transitionIn": "slip"
+  },
+  {
+   "id": "L066",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "Apologies.",
+   "caption": "Apologies.",
+   "shot": "SLIP2",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L067",
+   "beat": "directive_5",
+   "directive": 5,
+   "voice": "That remark has been redacted.",
+   "caption": "That remark has been redacted.",
+   "shot": "SLIP3",
+   "pauseAfter": 0.9,
+   "emphasis": [],
+   "sfx": "page",
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L068",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "Directive six. Do not reset it.",
+   "caption": "Directive 6. Do not reset it.",
+   "shot": "C6",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "Do not reset it"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L069",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "Your router is old. Videos stop loading at night.",
+   "caption": "Your router is old. Videos stop loading at night.",
+   "shot": "S64",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L070",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "Your provider will tell you to hold the reset button for ten seconds.",
+   "caption": "Your provider will tell you to hold the reset button for 10 seconds.",
+   "shot": "S65",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L071",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "Do not.",
+   "caption": "Do not.",
+   "shot": "S66",
+   "pauseAfter": 0.5,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L072",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "You have had it for seven years.",
+   "caption": "You have had it for 7 years.",
+   "shot": "S67",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L073",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "That is two thousand five hundred and fifty-seven nights.",
+   "caption": "That is 2,557 nights.",
+   "shot": "S68",
+   "pauseAfter": 0.45,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L074",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "In its first week, it changed one setting by itself.",
+   "caption": "In its first week, it changed one setting by itself.",
+   "shot": "S69",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": "page",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L075",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "Channel six. The same channel as theirs.",
+   "caption": "Channel 6. The same channel as theirs.",
+   "shot": "S70",
+   "pauseAfter": 0.45,
+   "emphasis": [
+    "same channel as theirs"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L076",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "Every night since, it has been talking over them.",
+   "caption": "Every night since, it has been talking over them.",
+   "shot": "S71",
+   "pauseAfter": 0.4,
+   "emphasis": [
+    "talking over them"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L077",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "You thought it was slow. It was busy.",
+   "caption": "You thought it was slow. It was busy.",
+   "shot": "S72",
+   "pauseAfter": 0.5,
+   "emphasis": [
+    "It was busy"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L078",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "A reset puts it back the way it came.",
+   "caption": "A reset puts it back the way it came.",
+   "shot": "S73",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": "page",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L079",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "Tonight, it was quiet for four minutes. After a reset, it would be quiet for good.",
+   "caption": "Tonight, it was quiet for 4 minutes. After a reset, it would be quiet for good.",
+   "shot": "S74",
+   "pauseAfter": 0.5,
+   "emphasis": [
+    "quiet for good"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L080",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "Leave the button alone.",
+   "caption": "Leave the button alone.",
+   "shot": "S75",
+   "pauseAfter": 0.35,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L081",
+   "beat": "directive_6",
+   "directive": 6,
+   "voice": "Let it keep talking.",
+   "caption": "Let it keep talking.",
+   "shot": "S76",
+   "pauseAfter": 0.9,
+   "emphasis": [
+    "keep talking"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L082",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "Addendum.",
+   "caption": "Addendum.",
+   "shot": "AD",
+   "pauseAfter": 0.6,
+   "emphasis": [
+    "Addendum"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L083",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "By now, you are wondering how a government department knows what your phone can see.",
+   "caption": "By now, you are wondering how a government department knows what your phone can see.",
+   "shot": "S78",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L084",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "Our inspectors file their reports before they leave your home.",
+   "caption": "Our inspectors file their reports before they leave your home.",
+   "shot": "S79",
+   "pauseAfter": 0.3,
+   "emphasis": [],
+   "sfx": "page",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L085",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "Their device makes a network to send them. It is named after the file.",
+   "caption": "Their device makes a network to send them. It is named after the file.",
+   "shot": "S80",
+   "pauseAfter": 0.35,
+   "emphasis": [
+    "named after the file"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L086",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "Your file is under your name.",
+   "caption": "Your file is under your name.",
+   "shot": "S81",
+   "pauseAfter": 0.45,
+   "emphasis": [
+    "your name"
+   ],
+   "sfx": "page",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L087",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "The Department of Unlisted Risks has filed inspection reports wirelessly for twenty-six years.",
+   "caption": "The Department of Unlisted Risks has filed inspection reports wirelessly for 26 years.",
+   "shot": "S82",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L088",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "In seven years, not one report from your home has finished uploading.",
+   "caption": "In 7 years, not one report from your home has finished uploading.",
+   "shot": "S83",
+   "pauseAfter": 0.4,
+   "emphasis": [
+    "finished uploading"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L089",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "Tonight, for four minutes, it was quiet.",
+   "caption": "Tonight, for 4 minutes, it was quiet.",
+   "shot": "S84",
+   "pauseAfter": 0.45,
+   "emphasis": [],
+   "sfx": "static",
+   "transitionIn": "carbon"
+  },
+  {
+   "id": "L090",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "Your report is at ninety-six per cent.",
+   "caption": "Your report is at 96%.",
+   "shot": "S85",
+   "pauseAfter": 0.5,
+   "emphasis": [
+    "96%"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L091",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "Your router is the only reason it is not finished.",
+   "caption": "Your router is the only reason it is not finished.",
+   "shot": "S86",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L092",
+   "beat": "addendum",
+   "directive": 7,
+   "voice": "That is why it is listed as a risk.",
+   "caption": "That is why it is listed as a risk.",
+   "shot": "S87",
+   "pauseAfter": 0.8,
+   "emphasis": [
+    "listed as a risk"
+   ],
+   "sfx": "stamp",
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L093",
+   "beat": "callback",
+   "directive": 7,
+   "voice": "If your phone shows a network with your name tonight...",
+   "caption": "If your phone shows a network with your name tonight...",
+   "shot": "S88",
+   "pauseAfter": 0.45,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "scan"
+  },
+  {
+   "id": "L094",
+   "beat": "callback",
+   "directive": 7,
+   "voice": "it is not a neighbour.",
+   "caption": "it is not a neighbour.",
+   "shot": "S89",
+   "pauseAfter": 0.5,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L095",
+   "beat": "callback",
+   "directive": 7,
+   "voice": "Do not connect. Leave the router on.",
+   "caption": "Do not connect. Leave the router on.",
+   "shot": "S90",
+   "pauseAfter": 0.4,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L096",
+   "beat": "callback",
+   "directive": 7,
+   "voice": "And let it keep talking.",
+   "caption": "And let it keep talking.",
+   "shot": "S91",
+   "pauseAfter": 0.8,
+   "emphasis": [
+    "keep talking"
+   ],
+   "sfx": null,
+   "transitionIn": "cut"
+  },
+  {
+   "id": "L097",
+   "beat": "outro",
+   "directive": null,
+   "voice": "This advisory has ended.",
+   "caption": "This advisory has ended.",
+   "shot": "S92",
+   "pauseAfter": 0.6,
+   "emphasis": [],
+   "sfx": null,
+   "transitionIn": "cut"
+  }
+ ],
+ "shots": {
+  "S01": {
+   "type": "tableau",
+   "desc": "Dark bedroom at night. A phone fills the centre of the frame, glowing: its Wi-Fi list. The top row is a network whose name is a redaction bar, with full bars and no lock. Faint moonlit window top left. Slow push.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 420,
+     "y": 300,
+     "sky": "moon"
+    },
+    {
+     "el": "phone",
+     "x": 960,
+     "y": 480,
+     "h": 620,
+     "screen": "wifi-list",
+     "networks": [
+      {
+       "redact": 9,
+       "bars": 4,
+       "lock": false,
+       "theirs": true
+      },
+      {
+       "name": "FLAT 3B",
+       "bars": 3,
+       "lock": true
+      },
+      {
+       "name": "DIRECT-41-PRINTER",
+       "bars": 2,
+       "lock": true
+      },
+      {
+       "name": "TV-UPSTAIRS",
+       "bars": 2,
+       "lock": true
+      },
+      {
+       "name": "FBI SURVEILLANCE VAN",
+       "bars": 1,
+       "lock": true
+      },
+      {
+       "name": "FLAT 2A",
+       "bars": 1,
+       "lock": true
+      }
+     ],
+     "highlight": 0,
+     "glow": true,
+     "time": "03:02"
+    }
+   ],
+   "camera": {
+    "move": "push",
+    "from": 1.0,
+    "to": 1.05
+   }
+  },
+  "S02": {
+   "type": "wifi-list",
+   "desc": "Full-frame Wi-Fi list, pushed in on the top row: the redacted name on the left, the signal icon on the right. The icon's four arcs fill one after another until it shows full bars.",
+   "wifi": {
+    "networks": [
+     {
+      "redact": 9,
+      "bars": 4,
+      "lock": false,
+      "theirs": true
+     },
+     {
+      "name": "FLAT 3B",
+      "bars": 3,
+      "lock": true
+     },
+     {
+      "name": "DIRECT-41-PRINTER",
+      "bars": 2,
+      "lock": true
+     },
+     {
+      "name": "TV-UPSTAIRS",
+      "bars": 2,
+      "lock": true
+     },
+     {
+      "name": "FBI SURVEILLANCE VAN",
+      "bars": 1,
+      "lock": true
+     },
+     {
+      "name": "FLAT 2A",
+      "bars": 1,
+      "lock": true
+     }
+    ],
+    "focus": 0,
+    "zoom": 1.6,
+    "fill_bars": 0
+   }
+  },
+  "S03": {
+   "type": "tableau",
+   "desc": "The phone, closer: a prompt 'JOIN ████?' with a JOIN button. A red cross draws over the button.",
+   "elements": [
+    {
+     "el": "phone",
+     "x": 960,
+     "y": 480,
+     "h": 640,
+     "screen": "join",
+     "networks": [
+      {
+       "redact": 9,
+       "bars": 4,
+       "lock": false,
+       "theirs": true
+      },
+      {
+       "name": "FLAT 3B",
+       "bars": 3,
+       "lock": true
+      },
+      {
+       "name": "DIRECT-41-PRINTER",
+       "bars": 2,
+       "lock": true
+      },
+      {
+       "name": "TV-UPSTAIRS",
+       "bars": 2,
+       "lock": true
+      },
+      {
+       "name": "FBI SURVEILLANCE VAN",
+       "bars": 1,
+       "lock": true
+      },
+      {
+       "name": "FLAT 2A",
+       "bars": 1,
+       "lock": true
+      }
+     ],
+     "highlight": 0
+    },
+    {
+     "el": "mark",
+     "type": "cross",
+     "x": 960,
+     "y": 610,
+     "size": 230,
+     "color": "red",
+     "anim": [
+      "draw-on"
+     ],
+     "delay": 0.3
+    }
+   ],
+   "accent": "red"
+  },
+  "S04": {
+   "type": "tableau",
+   "desc": "Dark hallway. Person standing on the left holding a phone out in front of them, facing two closed doors on the right. A red dashed line draws across the floor in front of the person; a small red cross on it.",
+   "elements": [
+    {
+     "el": "door",
+     "x": 1180,
+     "y": 780,
+     "h": 480,
+     "state": "closed",
+     "opacity": 0.6
+    },
+    {
+     "el": "door",
+     "x": 1560,
+     "y": 780,
+     "h": 480,
+     "state": "closed",
+     "opacity": 0.6
+    },
+    {
+     "el": "person",
+     "pose": "stand",
+     "x": 520,
+     "y": 780,
+     "h": 360,
+     "facing": "right"
+    },
+    {
+     "el": "phone",
+     "x": 640,
+     "y": 470,
+     "h": 110,
+     "screen": "glow-only",
+     "glow": true
+    },
+    {
+     "el": "boundary",
+     "x1": 700,
+     "y1": 800,
+     "x2": 700,
+     "y2": 560,
+     "color": "red",
+     "anim": [
+      "draw-on"
+     ]
+    },
+    {
+     "el": "mark",
+     "type": "cross",
+     "x": 700,
+     "y": 680,
+     "size": 90,
+     "color": "red",
+     "anim": [
+      "draw-on"
+     ],
+     "delay": 0.5
+    }
+   ],
+   "accent": "red"
+  },
+  "S05": {
+   "type": "tableau",
+   "desc": "The router on its wall shelf in the hallway, lights blinking. Its power cable runs down to a wall socket on the right. A red cross draws over the plug.",
+   "elements": [
+    {
+     "el": "router",
+     "x": 900,
+     "y": 560,
+     "w": 300,
+     "stand": "shelf",
+     "leds": "calm",
+     "plug": "in"
+    },
+    {
+     "el": "mark",
+     "type": "cross",
+     "x": 1300,
+     "y": 700,
+     "size": 130,
+     "color": "red",
+     "anim": [
+      "draw-on"
+     ],
+     "delay": 0.3
+    }
+   ],
+   "accent": "red"
+  },
+  "S06": {
+   "type": "doc",
+   "desc": "Official advisory memo on off-white paper slides up into frame. Header: DEPARTMENT OF UNLISTED RISKS / ADVISORY 0004 / SUBJECT: HOUSEHOLD WI-FI, UNLISTED NETWORK. Six redacted directive lines and an ADDENDUM line.",
+   "doc": {
+    "header": [
+     "DEPARTMENT OF UNLISTED RISKS",
+     "ADVISORY 0004",
+     "SUBJECT: HOUSEHOLD WI-FI — UNLISTED NETWORK"
+    ],
+    "lines": [
+     "DIRECTIVE 1 ███████",
+     "DIRECTIVE 2 ████████████",
+     "DIRECTIVE 3 ██████████",
+     "DIRECTIVE 4 █████████████",
+     "DIRECTIVE 5 ███████████",
+     "DIRECTIVE 6 ██████████████",
+     "ADDENDUM ██████ ████ ███"
+    ],
+    "highlight": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "anim": "slide-up"
+   }
+  },
+  "S06a": {
+   "type": "doc",
+   "same_as": "S06",
+   "desc": "Hold on the memo; the six directive lines pulse once, top to bottom."
+  },
+  "S06b": {
+   "type": "doc",
+   "same_as": "S06",
+   "desc": "Same memo. A red stamp VIOLATED slams onto DIRECTIVE 2 with a small screen shake.",
+   "doc": {
+    "stamp": {
+     "text": "VIOLATED",
+     "line": 1,
+     "color": "red",
+     "anim": "stamp"
+    }
+   }
+  },
+  "S06c": {
+   "type": "doc",
+   "same_as": "S06",
+   "desc": "Camera pushes down to the ADDENDUM line; it is highlighted in blue, text stays redacted.",
+   "doc": {
+    "focus_line": 6,
+    "highlight": [
+     6
+    ],
+    "highlight_color": "blue"
+   },
+   "camera": {
+    "move": "pan-to",
+    "target": "line-6",
+    "zoom": 1.6
+   }
+  },
+  "S07": {
+   "type": "wifi-list",
+   "desc": "Full-frame Wi-Fi list, an ordinary evening: HOME-5G (yours, ticked, two bars) on top, then the neighbours' networks. A small scanning spinner next to the title; the rows pop in one by one.",
+   "wifi": {
+    "networks": [
+     {
+      "name": "HOME-5G",
+      "bars": 2,
+      "lock": true,
+      "mine": true
+     },
+     {
+      "name": "FLAT 3B",
+      "bars": 3,
+      "lock": true
+     },
+     {
+      "name": "DIRECT-41-PRINTER",
+      "bars": 2,
+      "lock": true
+     },
+     {
+      "name": "TV-UPSTAIRS",
+      "bars": 2,
+      "lock": true
+     },
+     {
+      "name": "FBI SURVEILLANCE VAN",
+      "bars": 1,
+      "lock": true
+     },
+     {
+      "name": "FLAT 2A",
+      "bars": 1,
+      "lock": true
+     }
+    ],
+    "scan": true,
+    "appear": "sequence"
+   }
+  },
+  "S08": {
+   "type": "wifi-list",
+   "desc": "Same list. The neighbours' rows light up one after another (FLAT 3B, DIRECT-41-PRINTER, TV-UPSTAIRS), each for about a third of the line.",
+   "wifi": {
+    "networks": [
+     {
+      "name": "HOME-5G",
+      "bars": 2,
+      "lock": true,
+      "mine": true
+     },
+     {
+      "name": "FLAT 3B",
+      "bars": 3,
+      "lock": true
+     },
+     {
+      "name": "DIRECT-41-PRINTER",
+      "bars": 2,
+      "lock": true
+     },
+     {
+      "name": "TV-UPSTAIRS",
+      "bars": 2,
+      "lock": true
+     },
+     {
+      "name": "FBI SURVEILLANCE VAN",
+      "bars": 1,
+      "lock": true
+     },
+     {
+      "name": "FLAT 2A",
+      "bars": 1,
+      "lock": true
+     }
+    ],
+    "pulse": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "S09": {
+   "type": "wifi-list",
+   "desc": "Same list. The row FBI SURVEILLANCE VAN is highlighted in blue; the others dim.",
+   "wifi": {
+    "networks": [
+     {
+      "name": "HOME-5G",
+      "bars": 2,
+      "lock": true,
+      "mine": true
+     },
+     {
+      "name": "FLAT 3B",
+      "bars": 3,
+      "lock": true
+     },
+     {
+      "name": "DIRECT-41-PRINTER",
+      "bars": 2,
+      "lock": true
+     },
+     {
+      "name": "TV-UPSTAIRS",
+      "bars": 2,
+      "lock": true
+     },
+     {
+      "name": "FBI SURVEILLANCE VAN",
+      "bars": 1,
+      "lock": true
+     },
+     {
+      "name": "FLAT 2A",
+      "bars": 1,
+      "lock": true
+     }
+    ],
+    "highlight": 4,
+    "dim_others": true
+   },
+   "accent": "blue"
+  },
+  "S10": {
+   "type": "doc",
+   "accent": "blue",
+   "desc": "A Department register on paper: REGISTER OF DEPARTMENT NETWORKS, four redacted rows, then a line that types itself: FBI SURVEILLANCE VAN ..... NOT LISTED. That line is highlighted in blue.",
+   "doc": {
+    "header": [
+     "DEPARTMENT OF UNLISTED RISKS",
+     "REGISTER OF DEPARTMENT NETWORKS"
+    ],
+    "lines": [
+     "██████████ ............ ████",
+     "████████████ .......... ████",
+     "███████ ............... ████",
+     "FBI SURVEILLANCE VAN .. NOT LISTED"
+    ],
+    "anim": "type-line",
+    "type_line": 3,
+    "highlight": [
+     3
+    ],
+    "highlight_color": "blue"
+   }
+  },
+  "S11": {
+   "type": "tableau",
+   "desc": "Bedroom at night. Person lying in bed. On the blanket a phone lights up, casting a soft pool of light. Wall clock reads 03:00. Window with moon.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 1360,
+     "y": 300,
+     "sky": "moon"
+    },
+    {
+     "el": "clock",
+     "x": 1680,
+     "y": 250,
+     "r": 60,
+     "time": "03:00"
+    },
+    {
+     "el": "bed",
+     "x": 820,
+     "y": 780,
+     "w": 700
+    },
+    {
+     "el": "person",
+     "pose": "lie-bed",
+     "x": 770,
+     "y": 629,
+     "h": 150
+    },
+    {
+     "el": "phone",
+     "x": 1010,
+     "y": 600,
+     "h": 110,
+     "screen": "glow-only",
+     "glow": true,
+     "tilt": -70
+    }
+   ]
+  },
+  "S12": {
+   "type": "tableau",
+   "desc": "The hallway: the router on its shelf. All its lights go out, then the power light alone blinks slowly. A blue label: UPDATING.",
+   "elements": [
+    {
+     "el": "router",
+     "x": 960,
+     "y": 560,
+     "w": 320,
+     "stand": "shelf",
+     "leds": "restart"
+    },
+    {
+     "el": "label",
+     "text": "UPDATING",
+     "target": {
+      "x": 1140,
+      "y": 500
+     },
+     "color": "blue",
+     "anim": [
+      "draw-on"
+     ]
+    }
+   ],
+   "accent": "blue"
+  },
+  "S13": {
+   "type": "tableau",
+   "desc": "The phone, large: the Wi-Fi icon in the status bar is crossed out; the screen reads NO INTERNET. A small mono timer under it runs from 00:00 to 04:00 over the line.",
+   "elements": [
+    {
+     "el": "phone",
+     "x": 960,
+     "y": 480,
+     "h": 620,
+     "screen": "offline",
+     "time": "03:00",
+     "timer": {
+      "to": "04:00"
+     }
+    }
+   ]
+  },
+  "S14": {
+   "type": "wifi-list",
+   "desc": "Full-frame Wi-Fi list at 03:01: HOME-5G is gone. The neighbours' rows are dim. A new row slides in at the very top: a redaction bar for a name, full bars, no lock.",
+   "wifi": {
+    "networks": [
+     {
+      "redact": 9,
+      "bars": 4,
+      "lock": false,
+      "theirs": true
+     },
+     {
+      "name": "FLAT 3B",
+      "bars": 3,
+      "lock": true
+     },
+     {
+      "name": "DIRECT-41-PRINTER",
+      "bars": 2,
+      "lock": true
+     },
+     {
+      "name": "TV-UPSTAIRS",
+      "bars": 2,
+      "lock": true
+     },
+     {
+      "name": "FBI SURVEILLANCE VAN",
+      "bars": 1,
+      "lock": true
+     },
+     {
+      "name": "FLAT 2A",
+      "bars": 1,
+      "lock": true
+     }
+    ],
+    "appear": [
+     0
+    ],
+    "dim_others": true
+   }
+  },
+  "S15": {
+   "type": "wifi-list",
+   "desc": "Same list, pushed in on the new row. Three red labels draw on one after another, pointing at its parts: YOUR NAME (the redaction bar), 4 / 4 (the bars), NO LOCK (the empty lock slot).",
+   "wifi": {
+    "networks": [
+     {
+      "redact": 9,
+      "bars": 4,
+      "lock": false,
+      "theirs": true
+     },
+     {
+      "name": "FLAT 3B",
+      "bars": 3,
+      "lock": true
+     },
+     {
+      "name": "DIRECT-41-PRINTER",
+      "bars": 2,
+      "lock": true
+     },
+     {
+      "name": "TV-UPSTAIRS",
+      "bars": 2,
+      "lock": true
+     },
+     {
+      "name": "FBI SURVEILLANCE VAN",
+      "bars": 1,
+      "lock": true
+     },
+     {
+      "name": "FLAT 2A",
+      "bars": 1,
+      "lock": true
+     }
+    ],
+    "focus": 0,
+    "zoom": 1.4,
+    "dim_others": true,
+    "labels": [
+     {
+      "part": "name",
+      "text": "YOUR NAME"
+     },
+     {
+      "part": "bars",
+      "text": "4 / 4"
+     },
+     {
+      "part": "lock",
+      "text": "NO LOCK"
+     }
+    ]
+   },
+   "accent": "red"
+  },
+  "S16": {
+   "type": "tableau",
+   "desc": "Cutaway: the bedroom on the left with the person in bed; the closed bedroom door in the middle; beyond it, the router on its shelf in the hallway. Above the bed a small blue signal icon pops in showing 2 of 4 bars.",
+   "elements": [
+    {
+     "el": "bed",
+     "x": 520,
+     "y": 780,
+     "w": 560
+    },
+    {
+     "el": "person",
+     "pose": "lie-bed",
+     "x": 475,
+     "y": 629,
+     "h": 130
+    },
+    {
+     "el": "door",
+     "x": 1160,
+     "y": 780,
+     "h": 500,
+     "state": "closed"
+    },
+    {
+     "el": "router",
+     "x": 1580,
+     "y": 520,
+     "w": 220,
+     "stand": "shelf",
+     "leds": "calm"
+    },
+    {
+     "el": "signal-bars",
+     "x": 520,
+     "y": 300,
+     "bars": 2,
+     "size": 100,
+     "color": "blue",
+     "anim": [
+      "pop-in"
+     ]
+    }
+   ],
+   "accent": "blue"
+  },
+  "S17": {
+   "type": "tableau",
+   "desc": "Same cutaway. A second signal icon pops in, red and showing 4 of 4, right beside the bed at the foot end, nearer than the router. A dashed red circle draws around the empty space under it. The inspector is barely visible there (opacity 0.07) for the second half of the line. Do not make it obvious.",
+   "elements": [
+    {
+     "el": "bed",
+     "x": 520,
+     "y": 780,
+     "w": 560
+    },
+    {
+     "el": "person",
+     "pose": "lie-bed",
+     "x": 475,
+     "y": 629,
+     "h": 130
+    },
+    {
+     "el": "door",
+     "x": 1160,
+     "y": 780,
+     "h": 500,
+     "state": "closed"
+    },
+    {
+     "el": "router",
+     "x": 1580,
+     "y": 520,
+     "w": 220,
+     "stand": "shelf",
+     "leds": "calm"
+    },
+    {
+     "el": "signal-bars",
+     "x": 520,
+     "y": 300,
+     "bars": 2,
+     "size": 100,
+     "color": "blue"
+    },
+    {
+     "el": "signal-bars",
+     "x": 900,
+     "y": 330,
+     "bars": 4,
+     "size": 100,
+     "color": "red",
+     "anim": [
+      "pop-in"
+     ]
+    },
+    {
+     "el": "mark",
+     "type": "circle",
+     "x": 900,
+     "y": 600,
+     "size": 280,
+     "color": "red",
+     "anim": [
+      "draw-on"
+     ],
+     "delay": 0.4
+    },
+    {
+     "el": "inspector",
+     "pose": "stand",
+     "x": 900,
+     "y": 780,
+     "h": 500,
+     "opacity": 0.07,
+     "visible_frames": [
+      0.5,
+      1.0
+     ]
+    }
+   ],
+   "accent": "red"
+  },
+  "C1": {
+   "type": "directive-card",
+   "n": 1,
+   "title": "DO NOT CONNECT"
+  },
+  "S19": {
+   "type": "wifi-list",
+   "desc": "Full-frame Wi-Fi list. Every row has a small lock icon except the top one. A red circle draws around its empty lock slot.",
+   "wifi": {
+    "networks": [
+     {
+      "redact": 9,
+      "bars": 4,
+      "lock": false,
+      "theirs": true
+     },
+     {
+      "name": "FLAT 3B",
+      "bars": 3,
+      "lock": true
+     },
+     {
+      "name": "DIRECT-41-PRINTER",
+      "bars": 2,
+      "lock": true
+     },
+     {
+      "name": "TV-UPSTAIRS",
+      "bars": 2,
+      "lock": true
+     },
+     {
+      "name": "FBI SURVEILLANCE VAN",
+      "bars": 1,
+      "lock": true
+     },
+     {
+      "name": "FLAT 2A",
+      "bars": 1,
+      "lock": true
+     }
+    ],
+    "labels": [
+     {
+      "part": "lock",
+      "row": 0,
+      "mark": "circle"
+     }
+    ]
+   },
+   "accent": "red"
+  },
+  "S20": {
+   "type": "tableau",
+   "desc": "The phone, large: a prompt card slides up: '████' · OPEN NETWORK, and a JOIN button that pulses blue.",
+   "elements": [
+    {
+     "el": "phone",
+     "x": 960,
+     "y": 480,
+     "h": 620,
+     "screen": "join",
+     "networks": [
+      {
+       "redact": 9,
+       "bars": 4,
+       "lock": false,
+       "theirs": true
+      },
+      {
+       "name": "FLAT 3B",
+       "bars": 3,
+       "lock": true
+      },
+      {
+       "name": "DIRECT-41-PRINTER",
+       "bars": 2,
+       "lock": true
+      },
+      {
+       "name": "TV-UPSTAIRS",
+       "bars": 2,
+       "lock": true
+      },
+      {
+       "name": "FBI SURVEILLANCE VAN",
+       "bars": 1,
+       "lock": true
+      },
+      {
+       "name": "FLAT 2A",
+       "bars": 1,
+       "lock": true
+      }
+     ],
+     "highlight": 0,
+     "pulse_join": true
+    }
+   ]
+  },
+  "S21": {
+   "type": "tableau",
+   "desc": "Bedroom: person standing beside the bed, looking down at the glowing phone in their hand. A thought bubble '?' above their head.",
+   "elements": [
+    {
+     "el": "bed",
+     "x": 820,
+     "y": 780,
+     "w": 620
+    },
+    {
+     "el": "person",
+     "pose": "stand",
+     "x": 1260,
+     "y": 780,
+     "h": 360,
+     "facing": "left"
+    },
+    {
+     "el": "phone",
+     "x": 1170,
+     "y": 470,
+     "h": 110,
+     "screen": "glow-only",
+     "glow": true
+    },
+    {
+     "el": "thought",
+     "text": "?",
+     "x": 1340,
+     "y": 230
+    }
+   ]
+  },
+  "S22": {
+   "type": "tableau",
+   "desc": "The phone prompt again, closer on the JOIN button. A red cross draws over it.",
+   "elements": [
+    {
+     "el": "phone",
+     "x": 960,
+     "y": 400,
+     "h": 640,
+     "screen": "join",
+     "networks": [
+      {
+       "redact": 9,
+       "bars": 4,
+       "lock": false,
+       "theirs": true
+      },
+      {
+       "name": "FLAT 3B",
+       "bars": 3,
+       "lock": true
+      },
+      {
+       "name": "DIRECT-41-PRINTER",
+       "bars": 2,
+       "lock": true
+      },
+      {
+       "name": "TV-UPSTAIRS",
+       "bars": 2,
+       "lock": true
+      },
+      {
+       "name": "FBI SURVEILLANCE VAN",
+       "bars": 1,
+       "lock": true
+      },
+      {
+       "name": "FLAT 2A",
+       "bars": 1,
+       "lock": true
+      }
+     ],
+     "highlight": 0,
+     "pulse_join": true
+    },
+    {
+     "el": "mark",
+     "type": "cross",
+     "x": 960,
+     "y": 530,
+     "size": 220,
+     "color": "red",
+     "anim": [
+      "draw-on"
+     ],
+     "delay": 0.2
+    }
+   ],
+   "accent": "red"
+  },
+  "S23": {
+   "type": "tableau",
+   "desc": "Bedroom at night, person in bed. Faint grey broadcast rings roll in from the right edge of the frame, one after another, passing over the bed.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 1500,
+     "y": 300,
+     "sky": "moon"
+    },
+    {
+     "el": "bed",
+     "x": 820,
+     "y": 780,
+     "w": 700
+    },
+    {
+     "el": "person",
+     "pose": "lie-bed",
+     "x": 770,
+     "y": 629,
+     "h": 150
+    },
+    {
+     "el": "waves",
+     "x": 1980,
+     "y": 560,
+     "r": 1300,
+     "color": "grey",
+     "mode": "loop",
+     "opacity": 0.5
+    }
+   ]
+  },
+  "S24": {
+   "type": "wifi-list",
+   "desc": "Full-frame Wi-Fi list, close on the top row. The redaction bar pulses red twice.",
+   "wifi": {
+    "networks": [
+     {
+      "redact": 9,
+      "bars": 4,
+      "lock": false,
+      "theirs": true
+     },
+     {
+      "name": "FLAT 3B",
+      "bars": 3,
+      "lock": true
+     },
+     {
+      "name": "DIRECT-41-PRINTER",
+      "bars": 2,
+      "lock": true
+     },
+     {
+      "name": "TV-UPSTAIRS",
+      "bars": 2,
+      "lock": true
+     },
+     {
+      "name": "FBI SURVEILLANCE VAN",
+      "bars": 1,
+      "lock": true
+     },
+     {
+      "name": "FLAT 2A",
+      "bars": 1,
+      "lock": true
+     }
+    ],
+    "focus": 0,
+    "zoom": 1.8,
+    "pulse_name": "red"
+   },
+   "accent": "red"
+  },
+  "S25": {
+   "type": "tableau",
+   "desc": "Bedroom: person in bed. The grey rings now converge on the bed (they shrink inward onto it). A red label draws on, pointing at the person: ROOM: BEDROOM.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 1500,
+     "y": 300,
+     "sky": "moon"
+    },
+    {
+     "el": "bed",
+     "x": 820,
+     "y": 780,
+     "w": 700
+    },
+    {
+     "el": "person",
+     "pose": "lie-bed",
+     "x": 770,
+     "y": 629,
+     "h": 150
+    },
+    {
+     "el": "waves",
+     "x": 800,
+     "y": 600,
+     "r": 700,
+     "color": "grey",
+     "mode": "converge",
+     "opacity": 0.6
+    },
+    {
+     "el": "label",
+     "text": "ROOM: BEDROOM",
+     "target": {
+      "x": 760,
+      "y": 600
+     },
+     "color": "red",
+     "anim": [
+      "draw-on"
+     ],
+     "delay": 0.5
+    }
+   ],
+   "accent": "red"
+  },
+  "C2": {
+   "type": "directive-card",
+   "n": 2,
+   "title": "DO NOT FOLLOW THE SIGNAL"
+  },
+  "S27": {
+   "type": "doc",
+   "same_as": "S06b",
+   "desc": "Callback to the advisory memo: the red VIOLATED stamp on DIRECTIVE 2 pulses once."
+  },
+  "S28": {
+   "type": "tableau",
+   "desc": "Dark hallway. Person standing on the left, holding the phone out in front of them at arm's length; its glow lights the floor. They face down the hallway (two closed doors on the right).",
+   "elements": [
+    {
+     "el": "door",
+     "x": 1180,
+     "y": 780,
+     "h": 480,
+     "state": "closed",
+     "opacity": 0.6
+    },
+    {
+     "el": "door",
+     "x": 1560,
+     "y": 780,
+     "h": 480,
+     "state": "closed",
+     "opacity": 0.6
+    },
+    {
+     "el": "person",
+     "pose": "stand",
+     "x": 560,
+     "y": 780,
+     "h": 360,
+     "facing": "right"
+    },
+    {
+     "el": "phone",
+     "x": 690,
+     "y": 470,
+     "h": 110,
+     "screen": "glow-only",
+     "glow": true
+    }
+   ]
+  },
+  "S29": {
+   "type": "tableau",
+   "desc": "Three doorways in a row: KITCHEN, HALLWAY, BEDROOM (mono labels under them). Above the first a signal icon pops in with 2 bars, then above the second one with 3 bars. The third door stays dark.",
+   "elements": [
+    {
+     "el": "door",
+     "x": 560,
+     "y": 780,
+     "h": 480,
+     "state": "closed",
+     "opacity": 0.8
+    },
+    {
+     "el": "door",
+     "x": 960,
+     "y": 780,
+     "h": 480,
+     "state": "closed",
+     "opacity": 0.8
+    },
+    {
+     "el": "door",
+     "x": 1360,
+     "y": 780,
+     "h": 480,
+     "state": "closed",
+     "opacity": 0.8
+    },
+    {
+     "el": "signal-bars",
+     "x": 560,
+     "y": 190,
+     "bars": 2,
+     "size": 90,
+     "color": "blue",
+     "label": "KITCHEN",
+     "anim": [
+      "pop-in"
+     ]
+    },
+    {
+     "el": "signal-bars",
+     "x": 960,
+     "y": 190,
+     "bars": 3,
+     "size": 90,
+     "color": "blue",
+     "label": "HALLWAY",
+     "anim": [
+      "pop-in"
+     ],
+     "delay": 0.8
+    },
+    {
+     "el": "signal-bars",
+     "x": 1360,
+     "y": 190,
+     "bars": 0,
+     "size": 90,
+     "color": "dim",
+     "label": "BEDROOM"
+    }
+   ]
+  },
+  "S30": {
+   "type": "case-file",
+   "number": "0516",
+   "location": "GLASGOW, UK",
+   "label": "CASE FILE",
+   "desc": "Manila case folder with paper clip and a typed label: CASE 0516 / GLASGOW, UK. A red UNLISTED stamp in the corner."
+  },
+  "S31": {
+   "type": "tableau",
+   "desc": "Same three doorways. A dotted line walks along the floor from the left edge through each door in turn, ending at the BEDROOM door. The icons fill in as it passes: 2, 3, then 4 bars in red above BEDROOM.",
+   "elements": [
+    {
+     "el": "door",
+     "x": 560,
+     "y": 780,
+     "h": 480,
+     "state": "closed",
+     "opacity": 0.8
+    },
+    {
+     "el": "door",
+     "x": 960,
+     "y": 780,
+     "h": 480,
+     "state": "closed",
+     "opacity": 0.8
+    },
+    {
+     "el": "door",
+     "x": 1360,
+     "y": 780,
+     "h": 480,
+     "state": "closed",
+     "opacity": 0.8
+    },
+    {
+     "el": "signal-bars",
+     "x": 560,
+     "y": 190,
+     "bars": 2,
+     "size": 90,
+     "color": "blue",
+     "label": "KITCHEN"
+    },
+    {
+     "el": "signal-bars",
+     "x": 960,
+     "y": 190,
+     "bars": 3,
+     "size": 90,
+     "color": "blue",
+     "label": "HALLWAY"
+    },
+    {
+     "el": "signal-bars",
+     "x": 1360,
+     "y": 190,
+     "bars": 4,
+     "size": 90,
+     "color": "red",
+     "label": "BEDROOM",
+     "anim": [
+      "pop-in"
+     ],
+     "delay": 1.2
+    },
+    {
+     "el": "gaze",
+     "from": {
+      "x": 200,
+      "y": 770
+     },
+     "to": {
+      "x": 1360,
+      "y": 770
+     },
+     "style": "dotted",
+     "color": "dim",
+     "anim": [
+      "draw-on"
+     ]
+    }
+   ],
+   "accent": "red"
+  },
+  "S32": {
+   "type": "tableau",
+   "desc": "Her bedroom, dark. The bed is empty, the blanket thrown back on the right half. A person stands at the foot of the bed holding a phone out; a red signal icon with 4 bars above the phone.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 1660,
+     "y": 300,
+     "sky": "moon"
+    },
+    {
+     "el": "bed",
+     "x": 820,
+     "y": 780,
+     "w": 700
+    },
+    {
+     "el": "person",
+     "pose": "stand",
+     "x": 1360,
+     "y": 780,
+     "h": 360,
+     "facing": "left"
+    },
+    {
+     "el": "phone",
+     "x": 1240,
+     "y": 470,
+     "h": 110,
+     "screen": "glow-only",
+     "glow": true
+    },
+    {
+     "el": "signal-bars",
+     "x": 1240,
+     "y": 300,
+     "bars": 4,
+     "size": 90,
+     "color": "red",
+     "anim": [
+      "pop-in"
+     ]
+    }
+   ],
+   "accent": "red"
+  },
+  "S33": {
+   "type": "tableau",
+   "desc": "Same bedroom, closer. The person stands right beside the bed now, holding the phone out over the left half of the bed (her side). The red 4-bar icon pulses over that half of the bed.",
+   "elements": [
+    {
+     "el": "bed",
+     "x": 860,
+     "y": 780,
+     "w": 820
+    },
+    {
+     "el": "person",
+     "pose": "stand",
+     "x": 1420,
+     "y": 780,
+     "h": 360,
+     "facing": "left"
+    },
+    {
+     "el": "phone",
+     "x": 1240,
+     "y": 500,
+     "h": 110,
+     "screen": "glow-only",
+     "glow": true
+    },
+    {
+     "el": "signal-bars",
+     "x": 640,
+     "y": 340,
+     "bars": 4,
+     "size": 110,
+     "color": "red",
+     "anim": [
+      "pulse"
+     ]
+    }
+   ],
+   "accent": "red"
+  },
+  "S34": {
+   "type": "tableau",
+   "desc": "Close-up of that half of the bed: the pillow and blanket. A soft warm glow lies on the blanket (fg, low opacity), shaped like someone lying there; nobody is visible. Red label: BLANKET: WARM.",
+   "elements": [
+    {
+     "el": "bed",
+     "x": 900,
+     "y": 780,
+     "w": 1300
+    },
+    {
+     "el": "glow",
+     "x": 760,
+     "y": 600,
+     "r": 300,
+     "color": "fg",
+     "opacity": 0.1
+    },
+    {
+     "el": "label",
+     "text": "BLANKET: WARM",
+     "target": {
+      "x": 760,
+      "y": 600
+     },
+     "color": "red",
+     "anim": [
+      "draw-on"
+     ],
+     "delay": 0.3
+    }
+   ],
+   "accent": "red"
+  },
+  "S35": {
+   "type": "tableau",
+   "desc": "Wider: the person standing beside the empty bed, phone in hand. A wall clock above the bed reads 03:31. A red label points at the clock: OUT OF BED: 10 MIN.",
+   "elements": [
+    {
+     "el": "clock",
+     "x": 1000,
+     "y": 240,
+     "r": 64,
+     "time": "03:31"
+    },
+    {
+     "el": "bed",
+     "x": 820,
+     "y": 780,
+     "w": 700
+    },
+    {
+     "el": "person",
+     "pose": "stand",
+     "x": 1360,
+     "y": 780,
+     "h": 360,
+     "facing": "left"
+    },
+    {
+     "el": "phone",
+     "x": 1240,
+     "y": 470,
+     "h": 110,
+     "screen": "glow-only",
+     "glow": true
+    },
+    {
+     "el": "label",
+     "text": "OUT OF BED: 10 MIN",
+     "target": {
+      "x": 1050,
+      "y": 240
+     },
+     "color": "red",
+     "anim": [
+      "draw-on"
+     ],
+     "delay": 0.3
+    }
+   ],
+   "accent": "red"
+  },
+  "S36": {
+   "type": "tableau",
+   "desc": "Your bedroom again. Person lying in bed, still, phone face-down on the blanket (no glow). A blue check pops in beside the bed.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 1460,
+     "y": 300,
+     "sky": "moon"
+    },
+    {
+     "el": "bed",
+     "x": 820,
+     "y": 780,
+     "w": 700
+    },
+    {
+     "el": "person",
+     "pose": "lie-bed",
+     "x": 770,
+     "y": 629,
+     "h": 150
+    },
+    {
+     "el": "mark",
+     "type": "check",
+     "x": 1300,
+     "y": 520,
+     "size": 110,
+     "color": "blue",
+     "anim": [
+      "pop-in"
+     ]
+    }
+   ],
+   "accent": "blue"
+  },
+  "C3": {
+   "type": "directive-card",
+   "n": 3,
+   "title": "DO NOT RENAME YOUR NETWORK"
+  },
+  "S38": {
+   "type": "tableau",
+   "desc": "The phone, large: the router app's settings screen. A text field NETWORK NAME reads HOME-5G, with a blinking cursor.",
+   "elements": [
+    {
+     "el": "phone",
+     "x": 960,
+     "y": 480,
+     "h": 620,
+     "screen": "rename",
+     "rename": {
+      "from": "HOME-5G",
+      "to": null
+     }
+    }
+   ]
+  },
+  "S39": {
+   "type": "tableau",
+   "desc": "Same screen: HOME-5G deletes letter by letter and GO AWAY types itself in. A SAVE button flashes blue.",
+   "elements": [
+    {
+     "el": "phone",
+     "x": 960,
+     "y": 480,
+     "h": 620,
+     "screen": "rename",
+     "rename": {
+      "from": "HOME-5G",
+      "to": "GO AWAY"
+     }
+    }
+   ]
+  },
+  "S40": {
+   "type": "counter",
+   "value": 804,
+   "from": 0,
+   "decor": "folder-stack",
+   "decorCount": 8,
+   "x": 840,
+   "label": "HOUSEHOLDS THAT RENAMED",
+   "desc": "Big number counts up to 804 next to a growing stack of case folders."
+  },
+  "S41": {
+   "type": "tableau",
+   "desc": "Morning: window with sun on the right. Person standing on the left beside the bed, looking at the phone in their hand.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 1640,
+     "y": 330,
+     "sky": "sun"
+    },
+    {
+     "el": "bed",
+     "x": 1060,
+     "y": 780,
+     "w": 620
+    },
+    {
+     "el": "person",
+     "pose": "stand",
+     "x": 520,
+     "y": 780,
+     "h": 360,
+     "facing": "right"
+    },
+    {
+     "el": "phone",
+     "x": 620,
+     "y": 470,
+     "h": 110,
+     "screen": "glow-only"
+    }
+   ]
+  },
+  "S42": {
+   "type": "wifi-list",
+   "desc": "Full-frame Wi-Fi list in the morning: GO AWAY (yours, ticked, 2 bars) and below it the network with your name. Its redaction bar flickers, shrinks to nothing and re-types itself as a longer bar. It turns red.",
+   "wifi": {
+    "networks": [
+     {
+      "name": "GO AWAY",
+      "bars": 2,
+      "lock": true,
+      "mine": true
+     },
+     {
+      "redact": 9,
+      "bars": 4,
+      "lock": false,
+      "theirs": true
+     },
+     {
+      "name": "FLAT 3B",
+      "bars": 3,
+      "lock": true
+     },
+     {
+      "name": "DIRECT-41-PRINTER",
+      "bars": 2,
+      "lock": true
+     },
+     {
+      "name": "TV-UPSTAIRS",
+      "bars": 2,
+      "lock": true
+     }
+    ],
+    "retype": {
+     "row": 1,
+     "to": 14,
+     "color": "red"
+    }
+   },
+   "accent": "red"
+  },
+  "S43": {
+   "type": "doc",
+   "desc": "A typed memo line appears letter by letter: 'NETWORK RENAMED TO:', then a black redaction bar wipes over the rest of the line.",
+   "doc": {
+    "lines": [
+     "CASE 0516 — FOLLOW-UP",
+     "NETWORK RENAMED TO: ██████████████"
+    ],
+    "anim": "typewriter-then-redact"
+   }
+  },
+  "C4": {
+   "type": "directive-card",
+   "n": 4,
+   "title": "DO NOT UNPLUG THE ROUTER"
+  },
+  "S45": {
+   "type": "tableau",
+   "desc": "The hallway at night: the router on its shelf, plugged into the wall socket on the right, lights blinking. The person stands on the left, facing it.",
+   "elements": [
+    {
+     "el": "person",
+     "pose": "stand",
+     "x": 520,
+     "y": 780,
+     "h": 360,
+     "facing": "right"
+    },
+    {
+     "el": "router",
+     "x": 1100,
+     "y": 560,
+     "w": 280,
+     "stand": "shelf",
+     "leds": "calm",
+     "plug": "in"
+    },
+    {
+     "el": "clock",
+     "x": 1640,
+     "y": 250,
+     "r": 56,
+     "time": "03:06"
+    }
+   ]
+  },
+  "S46": {
+   "type": "tableau",
+   "desc": "Close: the plug comes out of the socket. The router's lights go out and the blue rings around it shrink and fade.",
+   "elements": [
+    {
+     "el": "router",
+     "x": 900,
+     "y": 560,
+     "w": 320,
+     "stand": "shelf",
+     "leds": "off",
+     "plug": "out"
+    },
+    {
+     "el": "waves",
+     "x": 900,
+     "y": 470,
+     "r": 420,
+     "color": "blue",
+     "mode": "fade-out"
+    }
+   ]
+  },
+  "S47": {
+   "type": "wifi-list",
+   "desc": "Full-frame Wi-Fi list: one row left. The network with your name, full bars, no lock. Everything else has gone.",
+   "wifi": {
+    "networks": [
+     {
+      "redact": 9,
+      "bars": 4,
+      "lock": false,
+      "theirs": true
+     }
+    ],
+    "empty_hint": true
+   }
+  },
+  "S48": {
+   "type": "tableau",
+   "desc": "The dark home, wide and empty. Grey rings roll outward from the middle of the frame and fill it.",
+   "elements": [
+    {
+     "el": "waves",
+     "x": 960,
+     "y": 520,
+     "r": 1100,
+     "color": "grey",
+     "mode": "loop",
+     "opacity": 0.7
+    }
+   ],
+   "dim": 0.5
+  },
+  "S49": {
+   "type": "tableau",
+   "desc": "Three devices in a row on the floor line: a phone on a small stand, an open laptop, a television. Each screen shows a searching animation (three dots cycling).",
+   "elements": [
+    {
+     "el": "device",
+     "kind": "phone",
+     "x": 520,
+     "y": 780,
+     "h": 200,
+     "screen": "searching"
+    },
+    {
+     "el": "device",
+     "kind": "laptop",
+     "x": 960,
+     "y": 780,
+     "h": 200,
+     "screen": "searching"
+    },
+    {
+     "el": "device",
+     "kind": "tv",
+     "x": 1420,
+     "y": 780,
+     "h": 300,
+     "screen": "searching"
+    }
+   ]
+  },
+  "S50": {
+   "type": "tableau",
+   "desc": "Same three devices, morning (window with sun above). Each screen now shows a grey Wi-Fi icon with full bars and a small check: connected.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 960,
+     "y": 250,
+     "sky": "sun"
+    },
+    {
+     "el": "device",
+     "kind": "phone",
+     "x": 520,
+     "y": 780,
+     "h": 200,
+     "screen": "connected"
+    },
+    {
+     "el": "device",
+     "kind": "laptop",
+     "x": 960,
+     "y": 780,
+     "h": 200,
+     "screen": "connected"
+    },
+    {
+     "el": "device",
+     "kind": "tv",
+     "x": 1420,
+     "y": 780,
+     "h": 300,
+     "screen": "connected"
+    }
+   ]
+  },
+  "S51": {
+   "type": "tableau",
+   "desc": "The router on its shelf, plugged in, lights blinking. Blue rings pulse gently around it. A blue check pops in.",
+   "elements": [
+    {
+     "el": "router",
+     "x": 960,
+     "y": 560,
+     "w": 320,
+     "stand": "shelf",
+     "leds": "busy",
+     "plug": "in"
+    },
+    {
+     "el": "waves",
+     "x": 960,
+     "y": 470,
+     "r": 460,
+     "color": "blue",
+     "mode": "loop"
+    },
+    {
+     "el": "mark",
+     "type": "check",
+     "x": 1400,
+     "y": 360,
+     "size": 110,
+     "color": "blue",
+     "anim": [
+      "pop-in"
+     ]
+    }
+   ],
+   "accent": "blue"
+  },
+  "C5": {
+   "type": "directive-card",
+   "n": 5,
+   "title": "DO NOT READ THE PASSWORD OUT LOUD"
+  },
+  "S53": {
+   "type": "tableau",
+   "desc": "Close-up of the sticker on the underside of the router: a paper label with small mono lines (MODEL, NETWORK: HOME-5G, PASSWORD: a redaction bar, a barcode). Slow push.",
+   "elements": [
+    {
+     "el": "router-sticker",
+     "x": 960,
+     "y": 480,
+     "w": 900
+    }
+   ],
+   "camera": {
+    "move": "push",
+    "from": 1.0,
+    "to": 1.05
+   }
+  },
+  "S54": {
+   "type": "tableau",
+   "desc": "A row of four dim visitors on the left. Small speech bubbles 'wi-fi?' pop up above them one after another.",
+   "elements": [
+    {
+     "el": "crowd",
+     "n": 4,
+     "x": 760,
+     "y": 780,
+     "h": 320,
+     "spacing": 200,
+     "facing": "front",
+     "color": "dim"
+    },
+    {
+     "el": "speech",
+     "text": "wi-fi?",
+     "size": "small",
+     "x": 460,
+     "y": 250,
+     "delay": 0.0
+    },
+    {
+     "el": "speech",
+     "text": "wi-fi?",
+     "size": "small",
+     "x": 660,
+     "y": 250,
+     "delay": 0.4
+    },
+    {
+     "el": "speech",
+     "text": "wi-fi?",
+     "size": "small",
+     "x": 860,
+     "y": 250,
+     "delay": 0.8
+    },
+    {
+     "el": "speech",
+     "text": "wi-fi?",
+     "size": "small",
+     "x": 1060,
+     "y": 250,
+     "delay": 1.2
+    }
+   ]
+  },
+  "S55": {
+   "type": "tableau",
+   "desc": "The person kneeling, holding the router upside down in front of them. A speech bubble with a long redaction bar, then a second identical bubble.",
+   "elements": [
+    {
+     "el": "person",
+     "pose": "kneel",
+     "x": 760,
+     "y": 780,
+     "h": 340,
+     "facing": "right"
+    },
+    {
+     "el": "router",
+     "x": 930,
+     "y": 620,
+     "w": 240,
+     "stand": "floor",
+     "leds": "calm",
+     "lift": {
+      "dy": 0,
+      "rot": 180
+     }
+    },
+    {
+     "el": "speech",
+     "from": "person.head",
+     "text": "████ ████ ████",
+     "size": "small",
+     "x": 920,
+     "y": 230
+    },
+    {
+     "el": "speech",
+     "text": "████ ████ ████",
+     "size": "small",
+     "x": 1180,
+     "y": 180,
+     "delay": 0.8
+    }
+   ]
+  },
+  "S56": {
+   "type": "tableau",
+   "desc": "The router back on its shelf, the right way up. A red cross draws over its underside edge.",
+   "elements": [
+    {
+     "el": "router",
+     "x": 960,
+     "y": 560,
+     "w": 320,
+     "stand": "shelf",
+     "leds": "calm"
+    },
+    {
+     "el": "mark",
+     "type": "cross",
+     "x": 960,
+     "y": 600,
+     "size": 180,
+     "color": "red",
+     "anim": [
+      "draw-on"
+     ],
+     "delay": 0.2
+    }
+   ],
+   "accent": "red"
+  },
+  "S57": {
+   "type": "tableau",
+   "desc": "Bedroom at night: person in bed with a red outline. Wall clock reads 04:07. The bedroom door on the right is closed; beyond it, at shelf height, two small red sound arcs.",
+   "elements": [
+    {
+     "el": "bed",
+     "x": 780,
+     "y": 780,
+     "w": 700
+    },
+    {
+     "el": "person",
+     "pose": "lie-bed",
+     "x": 730,
+     "y": 629,
+     "h": 150,
+     "outline": "red"
+    },
+    {
+     "el": "door",
+     "x": 1480,
+     "y": 780,
+     "h": 520,
+     "state": "closed"
+    },
+    {
+     "el": "clock",
+     "x": 1200,
+     "y": 250,
+     "r": 56,
+     "time": "04:07"
+    },
+    {
+     "el": "waves",
+     "x": 1700,
+     "y": 460,
+     "r": 80,
+     "color": "red",
+     "mode": "burst",
+     "at": [
+      0.4,
+      1.4
+     ]
+    }
+   ],
+   "accent": "red"
+  },
+  "S58": {
+   "type": "tableau",
+   "desc": "The hallway, dark. The router hangs 40 px above its shelf, tilted, held by nothing visible. Its lights blink. For the middle of the line the inspector is barely visible standing behind the shelf (opacity 0.08). Long, still hold.",
+   "elements": [
+    {
+     "el": "router",
+     "x": 960,
+     "y": 560,
+     "w": 320,
+     "stand": "shelf",
+     "leds": "calm",
+     "lift": {
+      "dy": -40,
+      "rot": -160
+     }
+    },
+    {
+     "el": "inspector",
+     "pose": "stand",
+     "x": 960,
+     "y": 780,
+     "h": 560,
+     "opacity": 0.08,
+     "visible_frames": [
+      0.3,
+      0.8
+     ]
+    }
+   ],
+   "dim": 0.5
+  },
+  "S59": {
+   "type": "tableau",
+   "desc": "The router comes back down onto its shelf, the right way up, a little to the left of where it was. A dashed outline stays at its old place.",
+   "elements": [
+    {
+     "el": "router",
+     "x": 960,
+     "y": 560,
+     "w": 320,
+     "stand": "shelf",
+     "leds": "calm",
+     "settle": {
+      "fromDy": -40,
+      "dx": -40
+     },
+     "ghost_at": {
+      "dx": 0
+     }
+    }
+   ],
+   "dim": 0.5
+  },
+  "S60": {
+   "type": "tableau",
+   "desc": "Bedroom: person in bed, still. Dark. The door closed.",
+   "elements": [
+    {
+     "el": "bed",
+     "x": 780,
+     "y": 780,
+     "w": 700
+    },
+    {
+     "el": "person",
+     "pose": "lie-bed",
+     "x": 730,
+     "y": 629,
+     "h": 150
+    },
+    {
+     "el": "door",
+     "x": 1480,
+     "y": 780,
+     "h": 520,
+     "state": "closed"
+    }
+   ],
+   "dim": 0.55
+  },
+  "S61": {
+   "type": "tableau",
+   "desc": "Morning light. Close-up of the router on its shelf. A dashed outline (dust-free rectangle) shows where it used to stand, a few centimetres to the right. Blue label: MOVED: 3 CM.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 380,
+     "y": 300,
+     "sky": "sun"
+    },
+    {
+     "el": "router",
+     "x": 920,
+     "y": 560,
+     "w": 340,
+     "stand": "shelf",
+     "leds": "calm",
+     "ghost_at": {
+      "dx": 40
+     }
+    },
+    {
+     "el": "label",
+     "text": "MOVED: 3 CM",
+     "target": {
+      "x": 1080,
+      "y": 520
+     },
+     "color": "blue",
+     "anim": [
+      "draw-on"
+     ],
+     "delay": 0.3
+    }
+   ],
+   "accent": "blue"
+  },
+  "SLIP1": {
+   "type": "tableau",
+   "desc": "STYLE BREAK (slip): the frame turns grey-scale and softer. Close-up on the router's sticker, seen at a tilt, and a pair of small round reading glasses lying folded on top of the router beside it. Perfectly still. Brief tracking-line glitch at start.",
+   "elements": [
+    {
+     "el": "router-sticker",
+     "x": 900,
+     "y": 520,
+     "w": 700,
+     "tilt": -8,
+     "color": "grey"
+    },
+    {
+     "el": "glasses",
+     "x": 1360,
+     "y": 420,
+     "w": 260,
+     "color": "grey"
+    }
+   ],
+   "style": "slip"
+  },
+  "SLIP2": {
+   "type": "tableau",
+   "desc": "The inspector bust, centred, faceless, hat and coat collar. Slight carbon-offset jitter.",
+   "elements": [
+    {
+     "el": "inspector",
+     "pose": "bust",
+     "x": 960,
+     "y": 560,
+     "h": 440,
+     "anim": [
+      "carbon-jitter"
+     ]
+    }
+   ]
+  },
+  "SLIP3": {
+   "type": "doc",
+   "desc": "A typed transcript line 'WE HAD TO USE OUR GLASSES.' gets covered left-to-right by a black redaction bar. A small stamp REDACTED appears.",
+   "doc": {
+    "lines": [
+     "TRANSCRIPT — ADVISORY 0004",
+     "WE HAD TO USE OUR GLASSES."
+    ],
+    "anim": "redact-line",
+    "redact_line": 1,
+    "stamp": {
+     "text": "REDACTED",
+     "color": "red",
+     "anim": "stamp"
+    }
+   }
+  },
+  "C6": {
+   "type": "directive-card",
+   "n": 6,
+   "title": "DO NOT RESET IT"
+  },
+  "S64": {
+   "type": "tableau",
+   "desc": "Evening: person on the sofa facing a television on the right; the TV shows a buffering circle that turns and turns. The router on its shelf further right, lights blinking.",
+   "elements": [
+    {
+     "el": "sofa",
+     "x": 640,
+     "y": 780,
+     "w": 560
+    },
+    {
+     "el": "person",
+     "pose": "sit-sofa",
+     "x": 640,
+     "y": 740,
+     "h": 300,
+     "facing": "right"
+    },
+    {
+     "el": "device",
+     "kind": "tv",
+     "x": 1160,
+     "y": 780,
+     "h": 300,
+     "screen": "buffering"
+    },
+    {
+     "el": "router",
+     "x": 1600,
+     "y": 520,
+     "w": 200,
+     "stand": "shelf",
+     "leds": "calm",
+     "age": "old"
+    }
+   ]
+  },
+  "S65": {
+   "type": "tableau",
+   "desc": "Close-up of the back of the router: ports, the power socket, and a tiny recessed RESET hole. A blue label points at the hole: RESET · 10 S.",
+   "elements": [
+    {
+     "el": "router",
+     "x": 960,
+     "y": 600,
+     "w": 760,
+     "stand": "floor",
+     "leds": "calm",
+     "view": "back",
+     "age": "old"
+    },
+    {
+     "el": "label",
+     "text": "RESET · 10 S",
+     "target": {
+      "x": 1173,
+      "y": 501
+     },
+     "color": "blue",
+     "anim": [
+      "draw-on"
+     ],
+     "delay": 0.3
+    }
+   ],
+   "accent": "blue"
+  },
+  "S66": {
+   "type": "tableau",
+   "desc": "Same close-up; a red cross draws over the reset hole.",
+   "elements": [
+    {
+     "el": "router",
+     "x": 960,
+     "y": 600,
+     "w": 760,
+     "stand": "floor",
+     "leds": "calm",
+     "view": "back",
+     "age": "old"
+    },
+    {
+     "el": "mark",
+     "type": "cross",
+     "x": 1173,
+     "y": 501,
+     "size": 140,
+     "color": "red",
+     "anim": [
+      "draw-on"
+     ]
+    }
+   ],
+   "accent": "red"
+  },
+  "S67": {
+   "type": "calendar",
+   "value": 7,
+   "fromYear": 2019,
+   "toYear": 2026,
+   "pageLabel": "NIGHT",
+   "label": "YEARS",
+   "desc": "Tear-off calendar pages flip quickly from 2019 to 2026; a counter beside it reaches 7 YEARS."
+  },
+  "S68": {
+   "type": "counter",
+   "value": 2557,
+   "from": 0,
+   "decor": "dots-grid",
+   "label": "NIGHTS",
+   "desc": "Big number counts up to 2,557; one dot per night fills in behind it."
+  },
+  "S69": {
+   "type": "doc",
+   "desc": "The router's settings log, printed on paper: WEEK 1 · CHANNEL: AUTO → 6 · CHANGED BY: ROUTER. That line is highlighted in blue; the lines around it are routine (FIRMWARE, TIME SYNC).",
+   "doc": {
+    "header": [
+     "ROUTER SETTINGS LOG",
+     "HOME-5G"
+    ],
+    "lines": [
+     "DAY 1 ..... TIME SYNC ............. OK",
+     "DAY 3 ..... FIRMWARE .............. OK",
+     "DAY 6 ..... CHANNEL: AUTO → 6 ..... BY ROUTER",
+     "DAY 9 ..... TIME SYNC ............. OK"
+    ],
+    "highlight": [
+     2
+    ],
+    "highlight_color": "blue",
+    "anim": "slide-up"
+   }
+  },
+  "S70": {
+   "type": "channel-graph",
+   "desc": "Wi-Fi channel graph (like an analyser app): channels 1–13 along the bottom. Dim humps for the neighbours on 1 and 11. On channel 6 two humps on top of each other: HOME-5G in blue and, under it, a grey hump whose label is a redaction bar. A thin blue line marks channel 6.",
+   "graph": {
+    "networks": [
+     {
+      "name": "FLAT 3B",
+      "channel": 1,
+      "strength": 0.45,
+      "color": "dim"
+     },
+     {
+      "name": "HOME-5G",
+      "channel": 6,
+      "strength": 0.7,
+      "color": "blue"
+     },
+     {
+      "redact": 9,
+      "channel": 6,
+      "strength": 0.6,
+      "color": "grey"
+     },
+     {
+      "name": "TV-UPSTAIRS",
+      "channel": 11,
+      "strength": 0.35,
+      "color": "dim"
+     }
+    ],
+    "mark_channel": 6
+   }
+  },
+  "S71": {
+   "type": "channel-graph",
+   "desc": "Same graph. The blue hump swells taller and wider and pulses, pressing the grey hump down under it.",
+   "graph": {
+    "networks": [
+     {
+      "name": "FLAT 3B",
+      "channel": 1,
+      "strength": 0.45,
+      "color": "dim"
+     },
+     {
+      "name": "HOME-5G",
+      "channel": 6,
+      "strength": 0.95,
+      "color": "blue"
+     },
+     {
+      "redact": 9,
+      "channel": 6,
+      "strength": 0.4,
+      "color": "grey"
+     },
+     {
+      "name": "TV-UPSTAIRS",
+      "channel": 11,
+      "strength": 0.35,
+      "color": "dim"
+     }
+    ],
+    "mark_channel": 6,
+    "mode": "talkover"
+   }
+  },
+  "S72": {
+   "type": "tableau",
+   "desc": "The router on its shelf at night, all lights flickering fast. Blue rings pour out of it; faint grey rings come in from the left edge and break up where they meet the blue.",
+   "elements": [
+    {
+     "el": "router",
+     "x": 1100,
+     "y": 560,
+     "w": 320,
+     "stand": "shelf",
+     "leds": "busy",
+     "age": "old"
+    },
+    {
+     "el": "waves",
+     "x": 1100,
+     "y": 470,
+     "r": 700,
+     "color": "blue",
+     "mode": "loop"
+    },
+    {
+     "el": "waves",
+     "x": -100,
+     "y": 470,
+     "r": 1100,
+     "color": "grey",
+     "mode": "loop",
+     "opacity": 0.45,
+     "clip": {
+      "x": 1100,
+      "y": 470,
+      "r": 560
+     }
+    }
+   ]
+  },
+  "S73": {
+   "type": "doc",
+   "accent": "red",
+   "desc": "A factory card on paper: FACTORY SETTINGS. CHANNEL: AUTO is highlighted in red.",
+   "doc": {
+    "header": [
+     "FACTORY SETTINGS",
+     "RESTORED AFTER RESET"
+    ],
+    "lines": [
+     "NETWORK NAME ....... DEFAULT",
+     "PASSWORD ........... DEFAULT",
+     "CHANNEL ............ AUTO"
+    ],
+    "highlight": [
+     2
+    ],
+    "highlight_color": "red",
+    "anim": "slide-up"
+   }
+  },
+  "S74": {
+   "type": "channel-graph",
+   "desc": "Same graph. The blue hump drops flat to nothing; the grey hump rises alone on channel 6 and its label turns red. A small mono timer top right: 03:00 → 03:04.",
+   "graph": {
+    "networks": [
+     {
+      "name": "FLAT 3B",
+      "channel": 1,
+      "strength": 0.45,
+      "color": "dim"
+     },
+     {
+      "name": "HOME-5G",
+      "channel": 6,
+      "strength": 0.0,
+      "color": "blue"
+     },
+     {
+      "redact": 9,
+      "channel": 6,
+      "strength": 0.8,
+      "color": "red"
+     },
+     {
+      "name": "TV-UPSTAIRS",
+      "channel": 11,
+      "strength": 0.35,
+      "color": "dim"
+     }
+    ],
+    "mark_channel": 6,
+    "mode": "quiet",
+    "timer": {
+     "from": "03:00",
+     "to": "03:04"
+    }
+   },
+   "accent": "red"
+  },
+  "S75": {
+   "type": "tableau",
+   "desc": "Back of the router again; a blue check pops in beside the reset hole.",
+   "elements": [
+    {
+     "el": "router",
+     "x": 960,
+     "y": 600,
+     "w": 760,
+     "stand": "floor",
+     "leds": "calm",
+     "view": "back",
+     "age": "old"
+    },
+    {
+     "el": "mark",
+     "type": "check",
+     "x": 1300,
+     "y": 440,
+     "size": 110,
+     "color": "blue",
+     "anim": [
+      "pop-in"
+     ]
+    }
+   ],
+   "accent": "blue"
+  },
+  "S76": {
+   "type": "tableau",
+   "desc": "Wide, calm closing image of the directive: the person sits on the hallway floor with their back to us, beneath the old router on its shelf, keeping it company. Its lights blink; soft blue glow. Slow pull-back.",
+   "elements": [
+    {
+     "el": "person",
+     "pose": "sit-floor",
+     "x": 800,
+     "y": 780,
+     "h": 260,
+     "facing": "back"
+    },
+    {
+     "el": "router",
+     "x": 1160,
+     "y": 500,
+     "w": 240,
+     "stand": "shelf",
+     "leds": "busy",
+     "age": "old"
+    },
+    {
+     "el": "glow",
+     "x": 1100,
+     "y": 520,
+     "r": 420,
+     "color": "blue",
+     "opacity": 0.14
+    }
+   ],
+   "camera": {
+    "move": "pull-back",
+    "from": 1.06,
+    "to": 1.0
+   }
+  },
+  "AD": {
+   "type": "addendum-card",
+   "title": "ADDENDUM"
+  },
+  "S78": {
+   "type": "tableau",
+   "desc": "Person standing next to the advisory memo, with a thought bubble '?'.",
+   "elements": [
+    {
+     "el": "person",
+     "pose": "stand",
+     "x": 740,
+     "y": 780,
+     "h": 360,
+     "facing": "right"
+    },
+    {
+     "el": "thought",
+     "text": "?",
+     "x": 860,
+     "y": 320
+    },
+    {
+     "el": "doc-mini",
+     "x": 1240,
+     "y": 560,
+     "w": 320
+    }
+   ]
+  },
+  "S79": {
+   "type": "doc",
+   "desc": "An inspection report form on paper: INSPECTION REPORT · FORM UR-12. Lines: HOUSEHOLD ████, ROOMS ████, OCCUPANTS ████, and a last line FILED: ON SITE, BEFORE LEAVING, highlighted in blue.",
+   "doc": {
+    "header": [
+     "DEPARTMENT OF UNLISTED RISKS",
+     "INSPECTION REPORT — FORM UR-12"
+    ],
+    "lines": [
+     "HOUSEHOLD ........... ████████",
+     "ROOMS ............... ██",
+     "OCCUPANTS ........... █",
+     "FILED ............... ON SITE, BEFORE LEAVING"
+    ],
+    "highlight": [
+     3
+    ],
+    "highlight_color": "blue",
+    "anim": "slide-up"
+   }
+  },
+  "S80": {
+   "type": "tableau",
+   "desc": "The inspector's clipboard, close (kit checklist), on the left. To its right a grey signal icon with full bars, grey rings rolling out from it. A blue label points at the icon: NETWORK = FILE NAME.",
+   "elements": [
+    {
+     "el": "checklist",
+     "x": 740,
+     "y": 500,
+     "w": 600,
+     "items": [
+      "KITCHEN ✓",
+      "BEDROOM ✓",
+      "OCCUPANT ✓",
+      "UPLOAD ☐"
+     ]
+    },
+    {
+     "el": "waves",
+     "x": 1240,
+     "y": 470,
+     "r": 600,
+     "color": "grey",
+     "mode": "loop",
+     "opacity": 0.5
+    },
+    {
+     "el": "signal-bars",
+     "x": 1240,
+     "y": 440,
+     "bars": 4,
+     "size": 120,
+     "color": "grey"
+    },
+    {
+     "el": "label",
+     "text": "NETWORK = FILE NAME",
+     "target": {
+      "x": 1270,
+      "y": 400
+     },
+     "color": "blue",
+     "anim": [
+      "draw-on"
+     ],
+     "delay": 0.4
+    }
+   ],
+   "accent": "blue"
+  },
+  "S81": {
+   "type": "doc",
+   "desc": "A household file label on paper: HOUSEHOLD FILE / NAME: a redaction bar / ADDRESS: a redaction bar. The NAME line is highlighted in red.",
+   "doc": {
+    "header": [
+     "DEPARTMENT OF UNLISTED RISKS",
+     "HOUSEHOLD FILE"
+    ],
+    "lines": [
+     "NAME ........ █████████",
+     "ADDRESS ..... ███████████████",
+     "STATUS ...... NOT FILED"
+    ],
+    "highlight": [
+     0
+    ],
+    "highlight_color": "red"
+   }
+  },
+  "S82": {
+   "type": "seal",
+   "desc": "Department seal: circular emblem, ring text DEPARTMENT OF UNLISTED RISKS, house outline with an open eye, EST. 1914. Slow rotation in of the ring text."
+  },
+  "S83": {
+   "type": "tableau",
+   "desc": "Seven upload bars stacked down the frame, one per year 2019–2025, each labelled with a redacted file name and the year. Each bar stopped part-way (31%, 12%, 54%, 8%, 47%, 22%, 61%) and shows a red FAILED.",
+   "elements": [
+    {
+     "el": "upload-bar",
+     "x": 960,
+     "y": 230,
+     "w": 1000,
+     "file": "2019.REP",
+     "value": 31,
+     "state": "failed",
+     "anim": [
+      "pop-in"
+     ],
+     "delay": 0.0
+    },
+    {
+     "el": "upload-bar",
+     "x": 960,
+     "y": 308,
+     "w": 1000,
+     "file": "2020.REP",
+     "value": 12,
+     "state": "failed",
+     "anim": [
+      "pop-in"
+     ],
+     "delay": 0.12
+    },
+    {
+     "el": "upload-bar",
+     "x": 960,
+     "y": 386,
+     "w": 1000,
+     "file": "2021.REP",
+     "value": 54,
+     "state": "failed",
+     "anim": [
+      "pop-in"
+     ],
+     "delay": 0.24
+    },
+    {
+     "el": "upload-bar",
+     "x": 960,
+     "y": 464,
+     "w": 1000,
+     "file": "2022.REP",
+     "value": 8,
+     "state": "failed",
+     "anim": [
+      "pop-in"
+     ],
+     "delay": 0.36
+    },
+    {
+     "el": "upload-bar",
+     "x": 960,
+     "y": 542,
+     "w": 1000,
+     "file": "2023.REP",
+     "value": 47,
+     "state": "failed",
+     "anim": [
+      "pop-in"
+     ],
+     "delay": 0.48
+    },
+    {
+     "el": "upload-bar",
+     "x": 960,
+     "y": 620,
+     "w": 1000,
+     "file": "2024.REP",
+     "value": 22,
+     "state": "failed",
+     "anim": [
+      "pop-in"
+     ],
+     "delay": 0.6
+    },
+    {
+     "el": "upload-bar",
+     "x": 960,
+     "y": 698,
+     "w": 1000,
+     "file": "2025.REP",
+     "value": 61,
+     "state": "failed",
+     "anim": [
+      "pop-in"
+     ],
+     "delay": 0.72
+    }
+   ],
+   "accent": "red"
+  },
+  "S84": {
+   "type": "tableau",
+   "desc": "First clear reveal: the hallway at night. The router on its shelf is dark (restarting, only the power light blinking). The inspector stands right beside it, fully visible, grey, faceless, clipboard in hand. Grey rings roll out from the clipboard and fill the hallway. Carbon-offset shimmer on the inspector's outline.",
+   "elements": [
+    {
+     "el": "router",
+     "x": 1240,
+     "y": 560,
+     "w": 280,
+     "stand": "shelf",
+     "leds": "restart"
+    },
+    {
+     "el": "inspector",
+     "pose": "stand",
+     "x": 880,
+     "y": 780,
+     "h": 560,
+     "opacity": 0.9,
+     "anim": [
+      "carbon-jitter"
+     ]
+    },
+    {
+     "el": "waves",
+     "x": 940,
+     "y": 480,
+     "r": 900,
+     "color": "grey",
+     "mode": "loop",
+     "opacity": 0.5
+    }
+   ]
+  },
+  "S85": {
+   "type": "tableau",
+   "desc": "One big upload bar centred: a redacted file name and 2026.REP. It fills from 0 to 96% over the line, then stops. The percentage is red.",
+   "elements": [
+    {
+     "el": "upload-bar",
+     "x": 960,
+     "y": 470,
+     "w": 1300,
+     "file": "2026.REP",
+     "value": 96,
+     "from": 0,
+     "state": "uploading",
+     "size": "large",
+     "color": "red"
+    }
+   ],
+   "accent": "red"
+  },
+  "S86": {
+   "type": "tableau",
+   "desc": "The router on its shelf, lights flickering fast again, blue rings pouring out. Above it, small, the upload bar stuck at 96% with WAITING blinking.",
+   "elements": [
+    {
+     "el": "router",
+     "x": 960,
+     "y": 600,
+     "w": 300,
+     "stand": "shelf",
+     "leds": "busy",
+     "age": "old"
+    },
+    {
+     "el": "waves",
+     "x": 960,
+     "y": 510,
+     "r": 600,
+     "color": "blue",
+     "mode": "loop"
+    },
+    {
+     "el": "upload-bar",
+     "x": 960,
+     "y": 200,
+     "w": 700,
+     "file": "2026.REP",
+     "value": 96,
+     "state": "stalled"
+    }
+   ]
+  },
+  "S87": {
+   "type": "doc",
+   "desc": "Household record: INSPECTIONS 7, REPORTS FILED 0, WIRELESS ROUTER 1. A red stamp LISTED RISK slams onto WIRELESS ROUTER.",
+   "doc": {
+    "header": [
+     "HOUSEHOLD RECORD",
+     "FORM UR-7"
+    ],
+    "lines": [
+     "INSPECTIONS ......... 7",
+     "REPORTS FILED ....... 0",
+     "WIRELESS ROUTER ..... 1"
+    ],
+    "stamp": {
+     "text": "LISTED RISK",
+     "line": 2,
+     "color": "red",
+     "anim": "stamp"
+    }
+   }
+  },
+  "S88": {
+   "type": "tableau",
+   "desc": "Callback to S01: the phone glowing in the dark bedroom, its Wi-Fi list with the redacted network on top. Slow push.",
+   "elements": [
+    {
+     "el": "window",
+     "x": 420,
+     "y": 300,
+     "sky": "moon"
+    },
+    {
+     "el": "phone",
+     "x": 960,
+     "y": 480,
+     "h": 620,
+     "screen": "wifi-list",
+     "networks": [
+      {
+       "redact": 9,
+       "bars": 4,
+       "lock": false,
+       "theirs": true
+      },
+      {
+       "name": "FLAT 3B",
+       "bars": 3,
+       "lock": true
+      },
+      {
+       "name": "DIRECT-41-PRINTER",
+       "bars": 2,
+       "lock": true
+      },
+      {
+       "name": "TV-UPSTAIRS",
+       "bars": 2,
+       "lock": true
+      },
+      {
+       "name": "FBI SURVEILLANCE VAN",
+       "bars": 1,
+       "lock": true
+      },
+      {
+       "name": "FLAT 2A",
+       "bars": 1,
+       "lock": true
+      }
+     ],
+     "highlight": 0,
+     "glow": true,
+     "time": "03:02"
+    }
+   ],
+   "camera": {
+    "move": "push",
+    "from": 1.0,
+    "to": 1.05
+   }
+  },
+  "S89": {
+   "type": "wifi-list",
+   "desc": "Full-frame Wi-Fi list: the neighbours' rows dim; a red outline draws around the top row (the redacted name).",
+   "wifi": {
+    "networks": [
+     {
+      "redact": 9,
+      "bars": 4,
+      "lock": false,
+      "theirs": true
+     },
+     {
+      "name": "HOME-5G",
+      "bars": 2,
+      "lock": true,
+      "mine": true
+     },
+     {
+      "name": "FLAT 3B",
+      "bars": 3,
+      "lock": true
+     },
+     {
+      "name": "DIRECT-41-PRINTER",
+      "bars": 2,
+      "lock": true
+     },
+     {
+      "name": "TV-UPSTAIRS",
+      "bars": 2,
+      "lock": true
+     },
+     {
+      "name": "FBI SURVEILLANCE VAN",
+      "bars": 1,
+      "lock": true
+     },
+     {
+      "name": "FLAT 2A",
+      "bars": 1,
+      "lock": true
+     }
+    ],
+    "dim_others": true,
+    "outline": 0
+   },
+   "accent": "red"
+  },
+  "S90": {
+   "type": "tableau",
+   "desc": "The router on its shelf, plugged in, lights blinking; blue rings around it.",
+   "elements": [
+    {
+     "el": "router",
+     "x": 960,
+     "y": 560,
+     "w": 320,
+     "stand": "shelf",
+     "leds": "busy",
+     "plug": "in",
+     "age": "old"
+    },
+    {
+     "el": "waves",
+     "x": 960,
+     "y": 470,
+     "r": 520,
+     "color": "blue",
+     "mode": "loop"
+    }
+   ]
+  },
+  "S91": {
+   "type": "channel-graph",
+   "desc": "Callback to S71: the channel graph, the blue hump on channel 6 standing tall over the grey one, pulsing steadily.",
+   "graph": {
+    "networks": [
+     {
+      "name": "FLAT 3B",
+      "channel": 1,
+      "strength": 0.45,
+      "color": "dim"
+     },
+     {
+      "name": "HOME-5G",
+      "channel": 6,
+      "strength": 0.95,
+      "color": "blue"
+     },
+     {
+      "redact": 9,
+      "channel": 6,
+      "strength": 0.4,
+      "color": "grey"
+     },
+     {
+      "name": "TV-UPSTAIRS",
+      "channel": 11,
+      "strength": 0.35,
+      "color": "dim"
+     }
+    ],
+    "mark_channel": 6,
+    "mode": "talkover"
+   }
+  },
+  "S92": {
+   "type": "tableau",
+   "desc": "The hallway at night, empty. The router on its shelf, small in the frame, its lights blinking slowly. Nothing else. Slow pull-back.",
+   "elements": [
+    {
+     "el": "router",
+     "x": 960,
+     "y": 560,
+     "w": 220,
+     "stand": "shelf",
+     "leds": "calm",
+     "age": "old"
+    }
+   ],
+   "dim": 0.4,
+   "camera": {
+    "move": "pull-back",
+    "from": 1.05,
+    "to": 1.0
+   }
+  },
+  "END": {
+   "type": "end-card",
+   "stamp": "UPLOADING",
+   "sub": "NEXT ADVISORY: 0005",
+   "desc": "Black frame. A red rubber-stamp 'UPLOADING.' slams in at -6° with a thud and small shake. Below it in small mono: NEXT ADVISORY: 0005. Hold 3.0 s, then cut to black."
+  }
+ }
+}

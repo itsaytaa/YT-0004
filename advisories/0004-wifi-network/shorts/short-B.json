@@ -1,0 +1,83 @@
+{
+  "advisory": "0004",
+  "slug": "0004-wifi-network",
+  "short": "B",
+  "angle": "B · case file",
+  "titleOverlay": [
+    {
+      "text": "IF YOUR WI-FI SHOWS"
+    },
+    {
+      "text": "A NETWORK WITH YOUR NAME…"
+    },
+    {
+      "text": "DO NOT CONNECT",
+      "color": "red"
+    }
+  ],
+  "segments": [
+    {
+      "from": "L001",
+      "to": "L003"
+    },
+    {
+      "from": "L040",
+      "to": "L046",
+      "chip": "DIRECTIVE 03 / 06"
+    },
+    {
+      "from": "L093",
+      "to": "L094"
+    }
+  ],
+  "skip": [],
+  "dropFirst": [
+    [
+      "L044"
+    ]
+  ],
+  "lineOverrides": {
+    "L040": {
+      "cropW": 1600,
+      "focusX": 960,
+      "why": "card / document shot: start wide, confirm in preview"
+    },
+    "L043": {
+      "cropW": 1600,
+      "focusX": 960,
+      "why": "card / document shot: start wide, confirm in preview"
+    },
+    "L046": {
+      "cropW": 1600,
+      "focusX": 960,
+      "why": "card / document shot: start wide, confirm in preview"
+    }
+  },
+  "holdAfter": {
+    "L003": 0.35,
+    "L045": 0.5,
+    "L046": 0.6
+  },
+  "end": {
+    "mode": "loop",
+    "text": "FULL ADVISORY 0004 · ON THE CHANNEL"
+  },
+  "metadata": {
+    "title": "If Your Wi-Fi Shows A Network With Your Name… DO NOT RENAME YOURS",
+    "description": [
+      "We will not be putting the new name in writing.",
+      "Full advisory: Advisory 0004. Linked below as the related video.",
+      "Advisory 0004 · Classification: unlisted",
+      "This channel is fiction. The Department of Unlisted Risks does not exist. Probably.",
+      "#shorts #analoghorror #ruleshorror"
+    ],
+    "tags": [
+      "analog horror",
+      "rules horror",
+      "wifi horror",
+      "not covered",
+      "department of unlisted risks",
+      "shorts"
+    ]
+  }
+}
